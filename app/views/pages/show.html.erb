@@ -1,2 +1,7 @@
-<h1>Pages#show</h1>
-<p>Find me in app/views/pages/show.html.erb</p>
+<h1>ユーザーページ</h1>
+<div>
+  あなたのメールアドレス：<%= current_user.email %>
+</div>
+<div>
+  <%= link_to '戻る', root_path %>
+</div>
